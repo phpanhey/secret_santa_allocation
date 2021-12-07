@@ -1,0 +1,10 @@
+{
+    "src_email": "the_src_email@email.de",
+    "src_email_passwort": "secret",
+    "participants_emails": {
+        "participant_1": "participant_1@email.de",
+        "participant_2": "participant_2@email.de",
+        "participant_3": "participant_3@email.de",
+        "participant_4": "participant_4@email.de"
+    }
+}
