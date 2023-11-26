@@ -31,7 +31,7 @@ def sendMail(message, emailto):
     sender = getConfig("src_email")
     password = getConfig("src_email_passwort")
 
-    server = smtplib.SMTP("smtp.office365.com", 587)
+    server = smtplib.SMTP("smtp.gmail.com", 587)
     server.ehlo()
     server.starttls()
     server.login(sender, password)
